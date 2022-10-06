@@ -1,0 +1,21 @@
+body{
+    width: 100vw;
+    height: 100vw;
+   background-image: linear-gradient(to right,grey, white);
+}
+/* (if the max-width = 600px or more, apply the styling)*/
+@media only screen and (min-width: 600px) {
+    h2,p,.container {
+        color: red;
+        font-size: 40px;
+        flex-direction: row-reverse;
+    }
+}
+/* (if the max-width = 600px or less, apply the styling)*/
+@media only screen and (max-width: 600px) {
+    h2,p,.container{
+        color: black;
+        flex-direction: column;
+        text-shadow: 2px 2px red;
+    }
+}

@@ -1,0 +1,185 @@
+<?php
+?>
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>menu</title>
+<style>
+@import url(capstone2/menu.css);
+
+
+header {
+  color: black;
+  background:  url(images/glassDash.jpg) no-repeat center center;
+  text-align: center;
+  height: 6.5em;
+  width: auto;
+}
+
+/*body Styles*/
+body {
+  background-color: #E6E6E3;
+  margin: 0 10%;
+  font-family: sans-serif;
+  text-align: center;
+  }
+
+
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-weight: normal;
+  font-size: 3em;
+  text-transform: uppercase;
+  border-bottom: 3px solid #8B0000;
+  margin-top: 30px;
+}
+h2 {
+  text-align: center;
+  font-size: 2em;
+  font-family: serif;
+  font-weight: normal;
+
+}
+h3 {
+  font-size: .5em;
+  border-top: 1px solid #8B000;
+}
+
+/*footer Styles*/y
+footer {
+border-top: 1px solid #8B0000;
+text-align: center;
+padding-top: 1em;
+}
+footer img {
+width: 40px;
+height: 40px;
+margin-left: .5em;
+margin-right: .5em;
+}
+
+@keyframes dropdown {
+0% {
+  transform: translateX(-300px);
+}
+100% {
+  transform: translateX(0);
+}
+}
+
+nav {
+
+animation: 1s ease-out 0s 1 dropdown;
+background: #8B0000;
+width: 100%;
+padding: 5px;
+}
+
+ a {
+   text-decoration: none;
+   color: #030303;
+   padding: 5px;
+   font-family: sans-serif;
+   font-weight: bolder;
+   display:inline-block;
+ }
+
+ a:hover {
+   color: #FFFF00;
+ }
+
+</style>
+
+<!--added this empty header to add the harbor diner logo I created in paint-->
+</head>
+<header><p></p></header>
+
+<body>
+<!--created the Menu Items header to label the page for the user-->
+<h1>Menu Items</h1>
+<!--used <picture> to make the menu pictures sizeable-->
+<picture>
+  <source media="(min-width: 480px)"
+  srcset="images/menu2.jpg 1200w,
+images/menu2.jpg 800w"
+sizes="80vw"
+srcset="images/menu2.jpg">
+<img src="images/menu2.jpg" alt="fisrt page of the menu">
+</picture>
+<!--used <picture> to make the menu pictures sizeable-->
+<picture>
+  <source media="(min-width: 480px)"
+  srcset="images/menu3.jpg 1200w ,
+images/menu3.jpg 800w"
+sizes="80vw"
+srcset="images/menu3.jpg">
+<img src="images/menu3.jpg" alt="secound page of the menu">
+</picture>
+<!--used <picture> to make the menu pictures sizeable-->
+<picture>
+  <source media="(min-width: 480px)"
+  srcset="images/menu4.jpg 1200w ,
+images/menu4.jpg 800w"
+sizes="80vw"
+srcset="images/menu4.jpg">
+<img src="images/menu4.jpg" alt="third page of the menu">
+</picture>
+<!--used <picture> to make the menu pictures sizeable-->
+<picture>
+  <source media="(min-width: 480px)"
+  srcset="images/menu5.jpg 1200w ,
+images/menu5.jpg 800w"
+sizes="80vw"
+srcset="images/menu5.jpg">
+<img src="images/menu5.jpg" alt="fourth page of the menu">
+</picture>
+<!--used <picture> to make the menu pictures sizeable-->
+<picture>
+  <source media="(min-width: 480px)"
+  srcset="images/menu6.jpg 1200w ,
+images/menu6.jpg 800w"
+sizes="80vw"
+srcset="images/menu6.jpg">
+<img src="images/menu6.jpg" alt="fifth page of the menu">
+</picture>
+<!--used <picture> to make the menu pictures sizeable-->
+<picture>
+  <source media="(min-width: 480px)"
+  srcset="images/menu7.jpg 1200w ,
+images/menu7.jpg 800w"
+sizes="80vw"
+srcset="images/menu7.jpg">
+<img src="images/menu7.jpg" alt="sixth page of the menu">
+</picture>
+<!--used <picture> to make the menu pictures sizeable-->
+<picture>
+  <source media="(min-width: 480px)"
+  srcset="images/menu8.jpg 1200w ,
+images/menu8.jpg 800w"
+sizes="80vw"
+srcset="images/menu8.jpg">
+<img src="images/menu8.jpg" alt="seventh page of the menu">
+</picture>
+
+<h3><b>Links</b>
+<!--added links to the other pages of the website-->
+<nav>
+<ul>
+  <li>
+    <button><a href="index.html">Back to The Hompage</a>
+    <button><a href="hours.html">Hours</a>
+    <button><a href="apply.html">Apply Online</a>
+    <button><a href="Order.html">Order Online</a>
+  </li>
+  </ul>
+</nav>
+    <h3>
+<!--created a footer to display the facebook logo and included a link to th Harbor Diner facebook page-->
+  <footer>find us on
+  <p><a href="https://www.facebook.com/TheHarborDiner/"><img src="facebook-svgrepo-com.svg" alt="facebook logo" class="center"></a>
+  </footer>
+
+</body>
+</html>
